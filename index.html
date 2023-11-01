@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon"
+   
+        href="./image/h1.png"
+        type="png">
+    <title>Chandan Singh</title>
+</head>
+
+<body>
+
+    <nav id="nav-menu">
+        <ul class="logo">
+            <li>
+                <img class="black"
+                    style="border-radius: 18px;"
+                    src="./image/h1.png"
+                    alt="">
+                <img class="white"
+                    src="./image/h1.png"
+                    alt="">
+            </li>
+        </ul>
+        <ul id="navList">
+            <li><a href="#home" class="nav-link home">HOME</a></li>
+            <li><a href="#about" class="nav-link about">ABOUT</a></li>
+            <li><a href="#skills" class="nav-link skill">SKILLS</a></li>
+            <li><a href="#projects" class="nav-link projects">PROJECTS</a></li>
+            <li><a href="#contact" class="nav-link contact">CONTACT</a></li>
+            <li><a class="nav-link resume"
+                    href="https://drive.google.com/file/d/1pb95uex7APotSrkM725RJuLUkIOFruwd/view?usp=sharing"
+                    target="_blank" id="resume-button-1">RESUME</a></li>
+
+        </ul>
+        <ul id="DARKMOE">
+            <li class="navItem">
+                <label class="switch">
+                    <input type="checkbox" id="dark-mode-toggle">
+                    <span class="slider"></span>
+                </label>
+            </li>
+        </ul>
+        <!-- Burger menu icon -->
+        <div id="burger-icon">
+            <label for="toggle-menu">
+                <span id="burger-icon-open">&#9776;</span>
+                <span id="close-icon">×</span>
+            </label>
+            <input type="button" id="toggle-menu">
+        </div>
+
+
+    </nav>
+
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="container2">
+            <div class="home-content">
+                <div class="home-text">
+                    <div style="z-index: 10;" id="mypic">
+                        <img src="./image/profileimg.png"
+                            alt="" class="home-img">
+                    </div>
+                    <div id="details">
+                        <p style="font-size: 40px;line-height: 2px;font-weight: 1000;">Hello, I'm
+                         <p style="font-size: 45px;line-height: 2px;font-weight: 900 ;margin-bottom: 30px;">Chandan Singh</p></p>
+                        <h2>
+                            
+                            <span style="font-size: 30px;line-height: 2.5px;font-weight: 1000 ;padding: 10px;"id="job-title"></span>
+                        </h2>
+                        <ul id="socials">
+                            <li><a href="mailto:cs95335@gmail.com"><i class="fa-solid fa-envelope fa-bounce"style="--fa-animation-duration: 12s"
+                                        ></i></a>
+                            </li>
+                            <li><a href="https://www.linkedin.com/in/chandan-singh-5b0b95244/"><i
+                                        class="fa-brands fa-linkedin fa-spin" style="--fa-animation-duration: 15s;" ></i></a></li>
+                            <li><a href="https://github.com/chandanSingh0"><i class="fa-brands fa-github fa-spin" style="--fa-animation-duration: 15s;"
+                                        ></i></a></li>
+                            <li><a href="tel:+9971915668"><i class="fa-solid fa-phone fa-spin" style="--fa-animation-duration: 20s;"
+                                        ></i></a></li>
+                        </ul>
+                    </div>
+                   
+                </div>
+            </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container1">
+            <p class="section-title">About</p>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="https://c.tenor.com/X7-d8mQPKCUAAAAM/computer-yeah.gif"
+                        alt="" srcset="">
+                </div>
+                <p class="about-description" id="user-detail-intro"> Motivated Java Back-End Developer with hands-on experience in
+                    Spring-Boot, Hibernate, Java, and SQL. Proficient in writing
+                    production-ready code and adept in collaborating with
+                    cross-functional teams to deliver scalable and reliable
+                    applications. A self-starter with a passion for learning and staying
+                    up-to-date with the latest technologies in the industry.</p>
+            </div>
+            <div class="resume-buttons">
+                <a href="https://drive.google.com/file/d/1pb95uex7APotSrkM725RJuLUkIOFruwd/view?usp=sharing"
+                    target="_blank" id="resume-button-2">Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- skills sections start-->
+    <section class="skills" id="skills">
+
+        <div class="skills-content section-content">
+
+            <p class="section-subtitle section-title">Techinal skills</p>
+
+            <h2 class="h3 ">What My Programming Skills Included?</h2>
+
+            <p class="section-text">
+                I develop simple, intuitive and responsive user interface that helps users get things done with less
+                effort
+                and time
+                with those technologies.
+            </p>
+
+            <div class="skills-toggle" data-toggle-box>
+                <button class="toggle-btn active" data-toggle-btn>Skills</button>
+
+                <button class="toggle-btn" data-toggle-btn>Tools</button>
+            </div>
+
+        </div>
+
+        <div class="skills-box" data-skills-box>
+
+            <ul class="skills-list">
+
+                <li>
+                    <div class="skill-card">
+                        <div class="tooltip">HTML5</div>
+
+                        <div class="card-icon">
+                            <img src="https://cdn.discordapp.com/attachments/1128079625818480751/1133776386750951454/icons8-html-64.png"
+                                alt="HTML5 logo">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="skill-card">
+                        <div class="tooltip">CSS3</div>
+
+                        <div class="card-icon1">
+                            <img src="https://cdn.discordapp.com/attachments/1128079625818480751/1133776785255964843/icons8-css3-100.png"
+                                alt="CSS3 logo">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="skill-card">
+                        <div class="tooltip">JavaScript</div>
+
+                        <div class="card-icon1">
+                            <img src="https://cdn.discordapp.com/attachments/1128079625818480751/1133775883866472448/icons8-javascript-64.png"
+                                alt="JavaScript logo">
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="skill-card">
+                        <div class="tooltip">Java</div>
+
+                        <div class="card-icon">
+                            <img src="https://cdn.discordapp.com/attachments/1128079625818480751/1133778393419223100/icons8-java-48.png"
+                                alt="Java logo">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="skill-card">
+                        <div class="tooltip">SpringBoot</div>
+
+                        <div class="card-icon">
+                            <img src="https://cdn.discordapp.com/attachments/1128079625818480751/1133777407619387493/icons8-spring-boot-48.png"
+                                alt="SpringBoot logo">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="skill-card">
+                        <div class="tooltip">Hibernate</div>
+
+                        <div class="card-icon2">
+                            <img src="https://www.vectorlogo.zone/logos/hibernate/hibernate-icon.svg"
+                                alt="Hibernate logo">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="skill-card">
+                        <div class="tooltip">RestApi</div>
+
+                        <div class="card-icon2">
+                            <img src="https://cdn.discordapp.com/attachments/1128079625818480751/1136721291911634974/icons8-rest-api-64.png"
+                                alt="RestApi logo">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="skill-card">
+                        <div class="tooltip">Maven</div>
+
+                        <div class="card-icon">
+                            <img src="https://cdn.discordapp.com/attachments/1128079625818480751/1133778033627635803/icons8-maven-ios-50.png"
+                                alt="Maven logo">
+                        </div>
+                    </div>
+                </li>
+
+                
+                <li>
+                    <div class="skill-card">
+                        <div class="tooltip">C/C++</div>
+
+                        <div class="card-icon">
+                            <img src="https://cdn.discordapp.com/attachments/1128079625818480751/1133778626022748190/icons8-c-48.png"
+                                alt="C/C++ logo">
+                        </div>
+                    </div>
+                </li>
+
+                
+                <li>
+                    <div class="skill-card">
+                        <div class="tooltip">MySQL</div>
+
+                        <div class="card-icon">
+                            <img src="https://cdn.discordapp.com/attachments/1128079625818480751/1133779409875255396/icons8-mysql-64.png"
+                                alt="MySQL logo">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="skill-card">
+                        <div class="tooltip">MongoDB</div>
+
+                        <div class="card-icon">
+                            <img src="https://cdn.discordapp.com/attachments/1128079625818480751/1133779644475265064/icons8-mongodb-a-cross-platform-document-oriented-database-program-36.png"
+                                alt="MongoDB logo">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <ul class="tools-list">
+
+                <li>
+                    <div class="skill-card">
+                        <div class="tooltip">Github</div>
+
+                        <div class="card-icon">
+                            <img src="https://www.vectorlogo.zone/logos/github/github-icon.svg" alt="Github logo">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="skill-card">
+                        <div class="tooltip">IntelliJ</div>
+
+                        <div class="card-icon1">
+                            <img src="https://cdn.discordapp.com/attachments/1128079625818480751/1133775883577086034/icons8-intellij-idea-100.png"
+                                alt="IntelliJ logo">
+                        </div>
+                    </div>
+                </li>
+
+
+
+                <li>
+                    <div class="skill-card">
+                        <div class="tooltip">Git</div>
+
+                        <div class="card-icon4">
+                            <img src="https://cdn.discordapp.com/attachments/1128079625818480751/1133784310525202553/icons8-git-24.png"
+                                alt="Git logo">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="skill-card">
+                        <div class="tooltip">VS Code</div>
+
+                        <div class="card-icon1">
+                            <img src="https://cdn.discordapp.com/attachments/1128079625818480751/1133775206226337903/icons8-vs-code-100.png"
+                                alt="VS Code logo">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="skill-card">
+                        <div class="tooltip">PostMan</div>
+
+                        <div class="card-icon1">
+                            <img src="https://cdn.discordapp.com/attachments/1128079625818480751/1136721309183791154/icons8-postman-api-64_1.png"
+                                alt="Post Man">
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="skill-card">
+                        <div class="tooltip">Slack</div>
+
+                        <div class="card-icon">
+                            <img src="https://cdn.discordapp.com/attachments/1128079625818480751/1133774872103878806/icons8-slack-50.png"
+                                alt="Slack logo">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="project-toggle" data-toggle-box2>
+            <button class="project-category-btn2 active" data-toggle-btn2>Enterprise</button>
+            <button class="project-category-btn2" data-toggle-btn2>Full Stack</button>
+        </div>
+
+
+        <div class="container">
+            <p class="section-title">Projects</p>
+            <!-- Enterprise CODEFUSE-->
+            <div class="project-container">
+                <div class="project-card">
+                    <div class="project-info">
+                        <p class="project-title">MindMesh</p>
+                        <img class="project-photo2"
+                            src="https://user-images.githubusercontent.com/41429552/265656968-a1cde6d3-dbc7-4b3f-9b5e-631dcda5a4ca.jpg"
+                            alt="">
+                        <p class="project-description">CodeFuse is an interview taking platform that leverages the power
+                            of OpenAI's GPT-3 for conducting interviews and
+                            providing responses. This platform allows interviewers to interact with candidates through a
+                            chat interface powered by
+                            ChatGPT, streamlining the interview process.
+                        </p>
+                        <p class="project-tech-stack">React | TailWind CSS | Node.js | Core Java | SpringBoot | OpenAPI
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/Utkarash33/MindMesh" class="project-github-link"><i
+                                    class="fa-brands fa-github-alt"></i></a>
+                            <a href="https://drive.google.com/file/d/1eQrW9SKqFmJfipo4uRSeW-CZNDLuouTV/view" class="project-github-link"><i
+                                    class="fa-solid fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+            <!-- Enterprise -->
+            <div class="project-container">
+                <div class="project-card">
+                    <div class="project-info">
+                        <p class="project-title">GrowGarden</p>
+                        <img class="project-photo2"
+                            src="https://camo.githubusercontent.com/a6a55ae04933d94e8d1f2d5e8ab0e32541b1046e5aa00fc94e40c509dd258641/68747470733a2f2f692e6962622e636f2f4b395a393744712f70726f6a6563742d4c6f676f2e706e67"
+                            alt="">
+                        <p class="project-description">The GrowGarden Application is a web-based platform designed to facilitate the purchase and management of a wide variety of plants, seeds, and planters. The application provides customers with an intuitive and user-friendly interface to browse through the available products, place orders, and manage their purchases. 
+                        </p>
+                        <p class="project-tech-stack">SpringBoot || Core Java || Hibernate || Maven || MySql</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Ankush-Nmurthy/Grow-Garden" class="project-github-link"><i
+                                    class="fa-brands fa-github-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Full Stack -->
+            <div class="project-container">
+                <div class="project-card">
+                    <div class="project-info">
+                        <p class="project-title">TravelWiz</p>
+                        <img class="project-photo2"
+                            src="https://user-images.githubusercontent.com/121368970/236737986-e27cfe27-1294-433f-973d-de8d3c217053.png"
+                            alt="">
+                        <p class="project-description">The main objective of a traveling website is to provide valuable travel information, inspiration, and booking services to visitors. This includes helping travelers plan their trips by offering information on destinations, accommodations, activities, and local culture.</p>
+                        <p class="project-tech-stack">HTML || CSS || JAVASCRIPT || RESTAPI</p>
+                        <div class="project-links">
+                            <a href="https://github.com/ParmeshwarMurmu/TravelWiz"><i
+                                    class="fa-brands fa-github-alt"></i></a>
+                            <a href="https://heartfelt-puffpuff-9f02e4.netlify.app/"><i
+                                    class="fa-solid fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Full Stack -->
+            <div class="project-container">
+                <div class="project-card">
+                    <div class="project-info">
+                        <p class="project-title">FlawLess</p>
+                        <img class="project-photo2"
+                            src="./image/Screenshot (576).png"
+                            alt="">
+                        <p class="project-description">FlawLess is a fashion destination, inspired by Ajio, where you
+                            can
+                            find handpicked styles at unbeatable prices. Explore the
+                            latest fashion trends, shop with ease, and express your unique style at ASEN.</p>
+                        <p class="project-tech-stack">HTML | CSS | JAVASCRIPT</p>
+                        <div class="project-links">
+                            <a href="https://github.com/chandanSingh0/-average-boat-8567" class="project-github-link"><i
+                                    class="fa-brands fa-github-alt"></i></a>
+                            <a href="https://darling-hummingbird-26a4de.netlify.app/" class="project-deployed-link"><i
+                                    class="fa-solid fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- github -->
+    <section>
+        <div id="github">
+            <p class="section-title">Github Statistics</p>
+            <div class="github">
+                <div>
+                    <div class="container">
+                        <a class="react-activity-calendar" href="https://git.io/streak-stats">
+                            <img id="github-streak-stats"
+                                src="https://github-readme-streak-stats.herokuapp.com/?user=chandanSingh0&theme=gotham&hide_border=false"
+                                alt="GitHub Streak Stats" />
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <div class="container">
+                        <a class="react-activity-calendar" href="https://github.com/chandanSingh0/github-readme-stats">
+                            <img id="github-top-langs"
+                                src="https://github-readme-stats.vercel.app/api/top-langs/?username=chandanSingh0"
+                                alt="GitHub Top Langs" />
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <div class="container">
+                        <a class="react-activity-calendar" href="https://github.com/chandanSingh0/github-readme-stats">
+                            <img id="github-stats-card"
+                            src="https://github-readme-stats-sigma-five.vercel.app/api?username=chandanSingh0&theme=gotham&hide_border=false&include_all_commits=false&count_private=true"
+                            alt="GitHub Stats Card" />
+                        </a>
+                        <!-- src="https://github-readme-stats.vercel.app/api?username=chandanSingh0&show_icons=true" -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+
+    <footer>
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+        <section id="contact">
+            <ul class="socials_icon">
+                <li><a href="mailto:cs95335@gmail.com"><i class="fa-solid fa-envelope fa-bounce"
+                            style="color: white;"></i></a>
+                </li>
+                <li><a href="https://www.linkedin.com/in/chandan-singh-5b0b95244/"><i
+                            class="fa-brands fa-linkedin fa-bounce" style="color: white;"></i></a></li>
+                <li><a href="https://github.com/chandanSingh0"><i class="fa-brands fa-github fa-bounce"
+                            style="color: white;"></i></a>
+                </li>
+                <li><a href="tel:+919971915668"><i class="fa-solid fa-phone fa-bounce" style="color: white;"></i></a>
+                </li>
+            </ul>
+        </section>
+
+        <p>Made with 💯 by Chandan Singh</p>
+    </footer>
+    <script src="index.js"></script>
+    <a href="#top" class="go-top" data-go-top title="Go to Top">
+        <ion-icon name="arrow-up"></ion-icon>
+    </a>
+    <div class="ocean">
+        <div class="wave5"></div>
+        <div class="wave5"></div>
+      </div>
+</body>
+<script src="https://kit.fontawesome.com/6b81da5529.js" crossorigin="anonymous"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+</html>
+
