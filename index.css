@@ -366,7 +366,7 @@ li {
   }
 }
 
-.skill-card {
+.skills-card {
   position: relative;
   background-color: #d3d5d8;
   width: 80px;
@@ -378,7 +378,7 @@ li {
   cursor: help;
 }
 
-.skill-card:hover .tooltip {
+.skills-card:hover .tooltip {
   transform: translateY(0);
   opacity: 1;
 }
