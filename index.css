@@ -267,7 +267,7 @@ button {
   font: inherit;
 }
 
-.skillss {
+.skills {
   padding-block: 75px;
 }
 
@@ -385,7 +385,7 @@ li {
   opacity: 1;
 }
 
-.skillss {
+.skills {
   margin: auto;
   width: 80%;
   display: grid;
@@ -984,7 +984,7 @@ body.dark-mode {
     flex: 1;
   }
 
-  .skillss {
+  .skills {
     margin: auto;
     display: grid;
     grid-template-columns: 3fr 6fr;
@@ -1126,7 +1126,7 @@ body.dark-mode {
     line-height: 20px;
   }
 
-  .skillss {
+  .skills {
     display: flex;
     flex-direction: column;
   }
