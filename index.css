@@ -617,7 +617,24 @@ a {
   text-align: center;
 }
 
-#resume-button-2 {
+#resume-Link-1 {
+  font-size: 15px;
+  font-weight: 300;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #85d3ed;
+  color: #fff;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+#resume-Link-1:hover {
+  background-color: #60c0cb;
+}
+#resume-link-2 {
   font-size: 20px;
   font-weight: 500;
   display: inline-block;
@@ -631,7 +648,7 @@ a {
   border-radius: 10px;
 }
 
-#resume-button-2:hover {
+#resume-link-2:hover {
   background-color: #19abbb;
 }
 
@@ -890,11 +907,11 @@ body.dark-mode {
   color: white;
 }
 
-.dark-mode #resume-button-2 {
+.dark-mode #resume-link-2 {
   background-color: #5eccf0;
 }
 
-.dark-mode #resume-button-2:hover {
+.dark-mode #resume-link-2:hover {
   background-color: whitesmoke;
   color: #5eccf0;
 }
