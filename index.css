@@ -617,7 +617,7 @@ a {
   text-align: center;
 }
 
-#resume-Link-1 {
+#resume-button-1 {
   font-size: 15px;
   font-weight: 300;
   display: inline-block;
@@ -631,7 +631,7 @@ a {
   border-radius: 10px;
 }
 
-#resume-Link-1:hover {
+#resume-button-1:hover {
   background-color: #60c0cb;
 }
 #resume-button-2 {
