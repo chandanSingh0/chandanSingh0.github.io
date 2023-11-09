@@ -28,6 +28,7 @@ body {
 
 #nav-menu {
   display: flex;
+  border: 5px solid rgb(205, 197, 197);
   /* background-color: #f3f3f3; */
   background: rgba(255, 255, 255, 0.2);
   justify-content: space-between;
@@ -113,7 +114,7 @@ body {
 #home {
   /* background: url("https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"); */
   /* background: url("https://img.freepik.com/free-photo/blue-toned-set-paper-sheets-with-copy-space_23-2148320447.jpg?w=740&t=st=1698775311~exp=1698775911~hmac=08852dcbfd17f81b32ac28c687133d50b96bb26c5ccf51db27a6d23b9f269018"); */
-  background: aliceblue;
+  /* background: aliceblue; */
 
   background-repeat: no-repeat;
   background-position: center;
@@ -232,20 +233,20 @@ body {
   align-items: center; */
 }
 
-.about-img {
-  /* border: 5px solid red; */
-  height: 500%;
+/* .about-img { */
+/* border: 5px solid red; */
+/* height: 500%;
   width: 350%;
 }
 .about-img img {
   height: 30%;
   width: 50%;
   border-radius: 18px;
-}
+} */
 
 .about-content {
   /* border: 5px solid red; */
-  display: flex;
+  /* display: flex; */
 
   text-align: center;
 
