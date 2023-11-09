@@ -634,7 +634,7 @@ a {
 #resume-Link-1:hover {
   background-color: #60c0cb;
 }
-#resume-link-2 {
+#resume-button-2 {
   font-size: 20px;
   font-weight: 500;
   display: inline-block;
@@ -648,7 +648,7 @@ a {
   border-radius: 10px;
 }
 
-#resume-link-2:hover {
+#resume-button-2:hover {
   background-color: #19abbb;
 }
 
@@ -907,11 +907,11 @@ body.dark-mode {
   color: white;
 }
 
-.dark-mode #resume-link-2 {
+.dark-mode #resume-button-2 {
   background-color: #5eccf0;
 }
 
-.dark-mode #resume-link-2:hover {
+.dark-mode #resume-button-2:hover {
   background-color: whitesmoke;
   color: #5eccf0;
 }
