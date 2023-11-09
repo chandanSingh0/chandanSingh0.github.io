@@ -30,7 +30,8 @@ body {
   display: flex;
   border: 2px solid rgb(205, 197, 197);
   /* background-color: #f3f3f3; */
-  background: rgba(255, 255, 255, 0.2);
+  /* background: rgba(255, 255, 255, 0.2); */
+  background-color: #745b5b;
   justify-content: space-between;
   align-items: center;
   position: sticky;
